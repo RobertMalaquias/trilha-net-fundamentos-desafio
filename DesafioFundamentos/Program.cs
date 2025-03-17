@@ -1,5 +1,9 @@
 ﻿using DesafioFundamentos.Models;
 
+<<<<<<< HEAD
+=======
+// Coloca o encoding para UTF8 para exibir acentuação
+>>>>>>> af631842402b7210d11d91582c4b9744fd18b499
 Console.OutputEncoding = System.Text.Encoding.UTF8;
 
 decimal precoInicial = 0;
@@ -12,11 +16,19 @@ precoInicial = Convert.ToDecimal(Console.ReadLine());
 Console.WriteLine("Agora digite o preço por hora:");
 precoPorHora = Convert.ToDecimal(Console.ReadLine());
 
+<<<<<<< HEAD
+=======
+// Instancia a classe Estacionamento, já com os valores obtidos anteriormente
+>>>>>>> af631842402b7210d11d91582c4b9744fd18b499
 Estacionamento es = new Estacionamento(precoInicial, precoPorHora);
 
 string opcao = string.Empty;
 bool exibirMenu = true;
 
+<<<<<<< HEAD
+=======
+// Realiza o loop do menu
+>>>>>>> af631842402b7210d11d91582c4b9744fd18b499
 while (exibirMenu)
 {
     Console.Clear();
